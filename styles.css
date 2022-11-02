@@ -206,6 +206,10 @@ main h1{
 
 @media only screen and (min-width:480px){
    
+    
+    .texto{
+        margin-left: 100px;
+    }
 
     .proveedores4{
         background-image: url(img/proveedores/schraiber.jpg);
@@ -213,12 +217,24 @@ main h1{
         background-position: center;
     }
 
+    .carousel-item img{
+        height: 300px;
+        width: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 90px;
+     }
 
 }
 
 /*display en 600px*/
 
 @media only screen and (min-width:600px){
+
+    .texto{
+        margin-left: 120px;
+    }
+
     .proov{
         height:  1800px;
         width: auto;
@@ -232,9 +248,12 @@ main h1{
 
 
     .carousel-item img{
-        padding: 80px;
-        padding-left: 7%;
-    }
+        height: auto;
+        width: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+     }
 
 }
    
@@ -242,6 +261,10 @@ main h1{
     /*min 768px*/
 
  @media only screen and (min-width:768px){
+
+        .texto{
+            margin-left: 150px;
+        }
       
         .proov{
             height:  800px;
@@ -263,12 +286,19 @@ main h1{
      /*min 1024px*/
 
  @media only screen and (min-width:1024px){
+
+    .texto{
+        margin-left: 200px;
+    }
    
 
     .carousel-item img{
-        padding: 80px;
-        padding-left: 27%;
-    }
+        height: 700px;
+        width: auto;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-left: 130px;
+     }
    
 }
 
@@ -278,10 +308,17 @@ main h1{
 
 @media only screen and (min-width:1200px){
 
-    .carousel-item img{
-        padding: 80px;
-        padding-left: 30%;
+    .texto{
+        margin-left: 230px;
     }
+
+    .carousel-item img{
+        height: 700px;
+        width: auto;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-left: 250px;
+     }
 
    
     
