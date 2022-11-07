@@ -1,388 +1,372 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.navbar{
-    background-color: black;
+.navbar {
+  background-color: black;
 }
 
-
-.logo{
-    color: white;
+.logo {
+  color: white;
 }
 
-.menu{
-    float: right;
+.menu {
+  float: right;
 }
 
-.menu ul{
-    list-style: none;
+.menu ul {
+  list-style: none;
 }
 
-.menu a{
-    text-decoration: none;
-    color: white;
+.menu a {
+  text-decoration: none;
+  color: white;
 }
 
-.menu ul li{
-    display: inline-block;
+.menu ul li {
+  display: inline-block;
 }
 
-.menu a:hover{
-    font-size: 19px;
-    color: rgb(163, 155, 155);
+.menu a:hover {
+  font-size: 19px;
+  color: rgb(163, 155, 155);
 }
 
-footer{
-    height: 100px;
-    width: 100%;
-    background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    text-align: center;
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  text-align: center;
 }
 
-
-.redes{
-    font-size: 60px;
-    word-spacing: 4px;
-    justify-content: center;
+.redes {
+  font-size: 60px;
+  word-spacing: 4px;
+  justify-content: center;
 }
 
-.redes a{
-    text-decoration: none;
-    color: white;
+.redes a {
+  text-decoration: none;
+  color: white;
 }
 
+main {
+  background-image: url(img/negocio.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
 
-main{
-    background-image: url(img/negocio.jpg);
-    background-size: cover;
+.texto {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 15%;
+}
+
+.texto h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.texto p {
+  font-size: 30px;
+  text-align: left;
+  color: white;
+}
+
+.carousel-item h3 {
+  background-color: white;
+}
+
+.carousel-item p {
+  background-color: white;
+}
+
+.ubicacion {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.363);
+  color: white;
+}
+
+.ubicacion h1 {
+  font-size: 40px;
+}
+
+.ubicacion p {
+  font-size: 20px;
+}
+
+main h1 {
+  text-align: center;
+  color: white;
+  background-color: rgba(3, 3, 3, 0.466);
+}
+
+.ayuda {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.486);
+  color: white;
+}
+
+.carousel-caption h3 {
+  color: black;
+}
+
+.carousel-caption p {
+  color: black;
+}
+
+.proov {
+  height: 1000px;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 9, 500px;
+}
+
+.carousel-item img {
+  height: 300px;
+  width: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.proveedores1 {
+  background-image: url(img/proveedores/awaduct.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.proveedores2 {
+  background-image: url(img/proveedores/tigre.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.proveedores3 {
+  background-image: url(img/proveedores/piazza.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.proveedores4 {
+  background-image: url(img/proveedores/schraiber.jpg);
+  background-size: 290px;
+  background-position: center;
+}
+
+.proveedores5 {
+  background-image: url(img/proveedores/motorarg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.proveedores6 {
+  background-image: url(img/proveedores/coama.jpg);
+  background-size: 260px;
+  background-position: center;
+}
+
+.proveedores7 {
+  background-image: url(img/proveedores/latyn.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.proveedores8 {
+  background-image: url(img/proveedores/gundin.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.proveedores9 {
+  background-image: url(img/proveedores/ombu.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/*display en 480px*/
+@media only screen and (min-width: 480px) {
+  .texto {
+    margin-left: 100px;
+  }
+  .proveedores4 {
+    background-image: url(img/proveedores/schraiber.jpg);
+    background-size: 320px;
     background-position: center;
-    height: 100%;
-    width: 100%;
+  }
+  .carousel-item img {
+    height: 300px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 90px;
+  }
 }
-
-.texto{
-    width: 60%;
-    background-color: rgba(0, 0, 0, 0.6);
-    border: 2px solid black;
-    border-radius: 5px; 
-    margin-left: 15%;
-
-       
-}
-
-.texto h1{
-    font-size: 50px;
-    text-align: center;
-    color: white;
-}
-
-.texto p{
-    font-size: 30px;
-    text-align: left;
-    color: white;
-}
-
-.carousel-item h3{
-    background-color: white;
-}
-
-.carousel-item p{
-    background-color: white;
-}
-
-.ubicacion{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.363);
-    color: white;
-}
-
-.ubicacion h1{
-    font-size: 40px;
-}
-
-.ubicacion p{
-    font-size: 20px;
-}
-
-main h1{
-    text-align: center;
-    color: white;
-    background-color: rgba(3, 3, 3, 0.466);
-}
-
-.ayuda{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.486);
-    color: white;
-}
-
-
-.carousel-caption h3{
-    color: black;
-}
-
-.carousel-caption p{
-    color: black;
-}
-
-.proov{
-    height:  1000px;
+/*display en 600px*/
+@media only screen and (min-width: 600px) {
+  .texto {
+    margin-left: 120px;
+  }
+  .proov {
+    height: 1800px;
     width: auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 9, 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .carousel-item img {
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+  }
 }
-
-.carousel-item img{
-   height: 300px;
-   width: auto;
-   padding-top: 20px;
-   padding-bottom: 30px;
-   padding-left: 20px;
+/*min 768px*/
+@media only screen and (min-width: 768px) {
+  .texto {
+    margin-left: 150px;
+  }
+  .proov {
+    height: 800px;
+    width: 900;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4, 500px;
+    padding-left: 30px;
+  }
+  .carousel-item img {
+    padding: 80px;
+    padding-left: 18%;
+  }
 }
-
-.proveedores1{
+/*min 1024px*/
+@media only screen and (min-width: 1024px) {
+  .texto {
+    margin-left: 200px;
+  }
+  .carousel-item img {
+    height: 700px;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 130px;
+  }
+}
+/*display en min1200px*/
+@media only screen and (min-width: 1200px) {
+  .texto {
+    margin-left: 230px;
+  }
+  .carousel-item img {
+    height: 700px;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+  }
+  .proov {
+    height: 1000px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 9, 500px;
+    padding-left: 50px;
+  }
+  .proveedores1 {
     background-image: url(img/proveedores/awaduct.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.proveedores2{
+  }
+  .proveedores2 {
     background-image: url(img/proveedores/tigre.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.proveedores3{
+  }
+  .proveedores3 {
     background-image: url(img/proveedores/piazza.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.proveedores4{
+  }
+  .proveedores4 {
     background-image: url(img/proveedores/schraiber.jpg);
-    background-size: 290px;
+    background-size: 430px;
     background-position: center;
-}
-
-.proveedores5{
+  }
+  .proveedores5 {
     background-image: url(img/proveedores/motorarg.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.proveedores6{
+  }
+  .proveedores6 {
     background-image: url(img/proveedores/coama.jpg);
     background-size: 260px;
     background-position: center;
-}
-
-.proveedores7{
+  }
+  .proveedores7 {
     background-image: url(img/proveedores/latyn.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.proveedores8{
+  }
+  .proveedores8 {
     background-image: url(img/proveedores/gundin.png);
     background-size: cover;
     background-position: center;
-}
-
-.proveedores9{
+  }
+  .proveedores9 {
     background-image: url(img/proveedores/ombu.jpg);
     background-size: cover;
     background-position: center;
+  }
 }
-
-/*display en 480px*/
-
-@media only screen and (min-width:480px){
-   
-    
-    .texto{
-        margin-left: 100px;
-    }
-
-    .proveedores4{
-        background-image: url(img/proveedores/schraiber.jpg);
-        background-size: 320px;
-        background-position: center;
-    }
-
-    .carousel-item img{
-        height: 300px;
-        width: auto;
-        padding-top: 20px;
-        padding-bottom: 30px;
-        padding-left: 90px;
-     }
-
+@media only screen and (min-width: 1500px) {
+  .carousel-item img {
+    height: 700px;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 400px;
+  }
+  .texto {
+    margin-left: 280px;
+  }
 }
-
-/*display en 600px*/
-
-@media only screen and (min-width:600px){
-
-    .texto{
-        margin-left: 120px;
-    }
-
-    .proov{
-        height:  1800px;
-        width: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 9, 500px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-
-
-    .carousel-item img{
-        height: auto;
-        width: auto;
-        padding-top: 20px;
-        padding-bottom: 30px;
-        padding-left: 50px;
-     }
-
+@media only screen and (min-width: 1700px) {
+  .carousel-item img {
+    height: 700px;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 510px;
+  }
+  .texto {
+    margin-left: 340px;
+    font-size: 60px;
+  }
 }
-   
-    
-    /*min 768px*/
-
- @media only screen and (min-width:768px){
-
-        .texto{
-            margin-left: 150px;
-        }
-      
-        .proov{
-            height:  800px;
-            width: 900;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 4, 500px;
-            padding-left: 30px;
-        }
-
-        .carousel-item img{
-            padding: 80px;
-            padding-left: 18%;
-        }
-    
-
-    }
-
-     /*min 1024px*/
-
- @media only screen and (min-width:1024px){
-
-    .texto{
-        margin-left: 200px;
-    }
-   
-
-    .carousel-item img{
-        height: 700px;
-        width: auto;
-        padding-top: 30px;
-        padding-bottom: 50px;
-        padding-left: 130px;
-     }
-   
-}
-
-    
-
-/*display en min1200px*/
-
-@media only screen and (min-width:1200px){
-
-    .texto{
-        margin-left: 230px;
-    }
-
-    .carousel-item img{
-        height: 700px;
-        width: auto;
-        padding-top: 30px;
-        padding-bottom: 50px;
-        padding-left: 250px;
-     }
-
-   
-    
-    .proov{
-        height:  1000px;
-        width: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 9, 500px;
-        padding-left: 50px;
-    }
-    
-    
-    .proveedores1{
-        background-image: url(img/proveedores/awaduct.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .proveedores2{
-        background-image: url(img/proveedores/tigre.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .proveedores3{
-        background-image: url(img/proveedores/piazza.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .proveedores4{
-        background-image: url(img/proveedores/schraiber.jpg);
-        background-size: 430px;
-        background-position: center;
-    }
-    
-    .proveedores5{
-        background-image: url(img/proveedores/motorarg.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .proveedores6{
-        background-image: url(img/proveedores/coama.jpg);
-        background-size: 260px;
-        background-position: center;
-    }
-    
-    .proveedores7{
-        background-image: url(img/proveedores/latyn.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .proveedores8{
-        background-image: url(img/proveedores/gundin.png);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .proveedores9{
-        background-image: url(img/proveedores/ombu.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-}
+@media only screen and (min-width: 1900px) {
+  .carousel-item img {
+    height: 700px;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 610px;
+  }
+  .texto {
+    padding-left: 90px;
+  }
+}/*# sourceMappingURL=styles.css.map */
